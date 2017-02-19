@@ -1,3 +1,5 @@
+> This project is just implements the symlink check.
+
 # depcheck
 
 Depcheck is a tool for analyzing the dependencies in a project to see: how each dependency is used, which dependencies are useless, and which dependencies are missing from `package.json`.
@@ -14,7 +16,7 @@ Depcheck is a tool for analyzing the dependencies in a project to see: how each 
 ## Installation
 
 ```
-npm install -g depcheck
+npm install -g depcheck2
 ```
 
 *Notice:* depcheck needs node.js >= 0.12.
@@ -32,7 +34,7 @@ Depcheck not only recognizes the dependencies in JavaScript files, but also supp
 To get the syntax support by external dependency, please install the corresponding package explicitly. For example, for Typescript user, install depcheck with `typescript` package:
 
 ```
-npm install -g depcheck typescript
+npm install -g depcheck2 typescript
 ```
 
 ## Special
